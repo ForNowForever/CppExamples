@@ -1,10 +1,8 @@
-// MutilThreadsApp1.cpp: 定义控制台应用程序的入口点。
-//
-
 #include <thread>
 #include <iostream>
 #include "Philosopher.h"
 
+namespace {
 using namespace std;
 
 void func1(Philosopher&& p1)
@@ -27,6 +25,8 @@ void func3(Philosopher && p1, Philosopher && p2)
 	p2.dropLeftCk();
 	p2.dropRightCk();
 	cout << "func3 end" << endl;
+}
+
 }
 
 int main()
