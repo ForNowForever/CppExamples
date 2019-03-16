@@ -1,9 +1,14 @@
+# MultiThread example
+#20:15
+
 #include <thread>
 #include <iostream>
 #include "Philosopher.h"
 
-namespace myNameSpace {
-using namespace std;
+namespace myNameSpace 
+{ // namespace begin
+
+	using namespace std;
 
 void func1(Philosopher&& p1)
 {
