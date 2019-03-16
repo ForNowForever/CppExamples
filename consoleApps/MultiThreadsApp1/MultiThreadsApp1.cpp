@@ -2,7 +2,7 @@
 #include <iostream>
 #include "Philosopher.h"
 
-namespace {
+namespace myNameSpace {
 using namespace std;
 
 void func1(Philosopher&& p1)
