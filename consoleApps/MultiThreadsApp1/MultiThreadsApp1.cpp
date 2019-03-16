@@ -27,7 +27,7 @@ void func3(Philosopher && p1, Philosopher && p2)
 	cout << "func3 end" << endl;
 }
 
-}
+}//namespace end
 
 int main()
 {
