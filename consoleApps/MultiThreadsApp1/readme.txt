@@ -1,1 +1,1 @@
-this is a sample project.
+this is a example project.
